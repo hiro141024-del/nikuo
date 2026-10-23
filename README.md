@@ -7,3 +7,11 @@
 - 20:00 同じ3つの再確認
 
 送信先は `KINMU_SLACK_USER_ID` です。未設定のときは広夢のユーザー ID に送ります。
+
+Mac の通知センターへ同じ3つを入れるには、日本時間の Mac で次を実行します。
+
+```bash
+bash mac/install-kinmu-reminders.sh --test
+```
+
+外すときは `bash mac/install-kinmu-reminders.sh --uninstall` です。
